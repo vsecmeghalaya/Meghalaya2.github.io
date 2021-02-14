@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    justify-content: space-around;
+    color: white;
+    display: flex;
+    background-color: rgb(26, 26, 26);
+   
+}
+.h1{
+    /* font-family: bungee; */
+    font-family: 'Bungee Shade', cursive;
+    font-size: 30px;
+    transition: transform 1s;
+}
+ul{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 25px;
+    width: 50%;
+    font-size: 26px;
+    font-family: pirata one;
+    list-style: none;
+}
+li{
+    transition: transform 1s;
+}
+.map{
+    height: 550px;
+    width: 100%;        
+    /* transition: transform 1s; */
+}
+li:hover{
+    /* transform: translate3d(10,10,10);  */
+    transform: scaleZ();
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+.h1:hover{
+    transform: scaleZ();
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+
+.mainh{
+    font-family: 'Bungee Outline', cursive;
+    background-color: rgb(39, 39, 39);
+    font-size: 50px;
+    color: white;
+}
+a{
+
+    color: white;
+}
+.images{
+    background-image: url("waterfall.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
